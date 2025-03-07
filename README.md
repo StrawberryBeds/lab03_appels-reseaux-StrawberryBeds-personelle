@@ -1,8 +1,8 @@
-# Ce repositoire est crée après le remise du travail dans GitHub Classroom donc il manque le historique des commits et il est seulement le version finale.
+Ce repositoire est crée après le remise du travail dans GitHub Classroom donc il manque le historique des commits et il est seulement le version finale.
 
-# Le site affiche des GIFs et Stickers grace à l'API de Giphy.com. Les GIFs peut semble pas très important, mais l'important est faire un site qui appelle des resources stockées sur un autre site ou base de données n'importe quel type ou contenu. En plus, de créer un site qui est dynamique et réactif au taille de l'écran où il se trouve.
+Le site affiche des GIFs et Stickers grace à l'API de Giphy.com. Les GIFs peut semble pas très important, mais l'important est faire un site qui appelle des resources stockées sur un autre site ou base de données n'importe quel type ou contenu. En plus, de créer un site qui est dynamique et réactif au taille de l'écran où il se trouve.
 
-# Voici les directions du Prof. Antoine Moevus du Collège Ahuntsic, Montréal.  
+Voici les directions du Prof. Antoine Moevus du Collège Ahuntsic, Montréal.  
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9MU6412l)
 # Laboratoire 4 : Afficheur de Gifs et Stickers
