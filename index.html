@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Commence de document et son langage technique (HTML)  -->
+<html lang="fr">
+<!-- Son language humaine (français) -->
+  
+<head>
+<!-- Renseignements pour les navigateurs au premier     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Ajoute de reactivité HTML pour bureaux et mobiles -->
+    <meta charset="UTF-8"> 
+    <!-- Indique les caracters utilisé -->
+    <title>Page des GIFs</title> 
+    <!-- Titre du page pour les navigateurs -->
+    <link rel="stylesheet" href="style.css">   
+    <!-- Liason au fichier CSS -->
+</head>
+
+<body>
+<!-- Commence des elements visuelles     -->
+    <header class="header">
+        <!-- Contenu du header avec identifiants pour CSS  -->
+        <h1>Page des GIFs </h1> 
+        <p> Faites vos recherches des GIFs et des Stickers </p>
+    </header>
+
+    <div id="form-container">
+        <!-- Element pour le formulaire avec identifiants pour CSS et JS-->
+        <form id="cherche"> 
+            <!-- Invite de recherche avec valeur et type de l'entrée pour le JS  -->
+            <label><input name="mot_cle" type="text", placeholder="Je suis à la recherche de ..."></label>
+            <!-- Options de soumission de l'entrée et le type de recherche pur le JS-->
+            <button type="submit" id="submitGIF">Chercher des GIFs</button>
+            <button type="submit" id="submitSticker">Chercher des Stickers</button> 
+        </form>
+    </div>
+
+    <h1>Les résultats</h1>
+    <!-- Titre de element suivant (les résultats) -->
+
+    <main class="content"> 
+    <!-- Element principle de la page -->
+        <div id="results">
+        <!-- Affichage des resultats de la récherche et liason au fichier JS -->
+        <script type="text/javascript" src="script.js"></script>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <!-- Element finale de la page-->
+        <h4>Fait par Samuel Wood à Montréal 2025</h4>  
+    </footer>
+</body>
+<!-- Termine des elements visuelles -->
+</html>
+<!-- Termine de la langage technique (HTML) -->

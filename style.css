@@ -1,0 +1,173 @@
+body {
+    /* Style du body */
+    max-width: 100%;
+    /* Proportion de l'ecran utilisé horizonatlement */
+    min-height: 100vh;
+     /* Proportion de l'ecran utilisé verticalement */
+    margin: 0;
+    /* Margin entre les limites de l'ecran et l'element */
+    padding: 4px;
+    /* Espace entre les limites de l'elements et son contenu */
+    display: flex;
+    /* Genre de comportment adaptaive (grid, flex ou flow) pour les elements dans le form-container */
+    flex-direction: column;
+    /* Direction des elements */
+    justify-content: center;
+    /* Alignement des elements horizonalememt */
+    align-items: center;
+    /* Alignement des elements verticalement */
+    font-family: Arial, sans-serif;
+    /* Police de la texte */
+    background-color: yellow;
+    /* Couleur du fond de l'element */    
+  }
+
+header, footer {
+   /* Style des'element header et footer */
+  width: 100%;
+  /* Proportion de l'element body utilisé horizonatlement */
+  background-color: purple;
+  /* Couleur du fond de l'element */
+  padding: 8px;
+  /* Espace entre les limites de l'elements et son contenu */
+  text-align: center;
+   /* Alignement de la texte horizontalement */
+  color: white
+  /* Couleur de la texte */
+}
+
+main { 
+  /* Style de l'element principale */
+    width: 100%;
+    /* Proportion de l'element body utilisé horizonatlement */
+    display: flex;
+    /* Genre de comportment adaptaive (grid, flex ou flow) pour les elements dans le form-container */
+    justify-content: center;
+    /* Alignement des elements horizonalememt */
+}
+ 
+ #form-container {
+  /* Assure le bon placement des elements de la formulaire */
+  width: 100%;
+  /* Proportion de l'element body utilisé horizonatlement */
+  margin: 10px;
+   /* Margin entre les limites de le main et l'element */
+  display: flex;
+  /* Genre de affichage (grid, flex ou flow) pour les elements dans le form-container */
+  justify-content: center;
+  /* Alignement des elements horizonalememt */
+  align-items: center;
+  /* Alignement des elements verticalement */
+ }
+  
+/* } */
+form {
+  /* Style des elements du formulaire (texte d'invite (input), boite d'entrée et les bouttons */
+  input {
+    appearance: none;
+    /* Supression des defauts */
+    width: 100%;
+    /* Proportion de l'element form container utilisé horizonatlement */
+    max-width: 300px;
+    /* Assurer l'adaptabilitité dans les ecrans plus qu 300px horizonalles */
+    font-size: 16px;
+    /* Taille de texte d'entrée */
+    padding: 10px;
+    /* Esapace vertical et horizontal entre le contenu et les limites * */
+    border: none;
+    /* Supression du style default des limites */
+    border-radius: 5px;
+    /* Contour des points */
+    background-color: plum;
+    /* Couleur du fond */
+  }
+
+  input::placeholder {
+    /* Style du placeholder text */
+    color: black;
+    opacity: 0.8;
+    font-style: italic;
+  }
+  
+  label {
+
+    text-align: center; 
+    /* Aligner la texte */
+    margin-bottom: 10px; 
+    /* Ajoute d'éspace */
+}
+  width: 100%;
+  /* Proportion de l'element body utilisé horizonatlement */
+  margin: 10px;
+   /* Margin entre les limites de le main et l'element (le fomulaire) */
+  display: flex;  
+  /* Genre de comportment adaptaive (grid, flex ou flow) pour les elements dans le form-container */
+  flex-direction: column;
+  /* Permettre les elements de se placer verticalement comme besoin */
+  gap: 20px;
+  /* Espace entre les elements (la boite d'entrée et les deux boutons) */
+  justify-content: center;
+  /* Alignement des elements horizonalememt */
+  align-items: center;
+  /* Alignement des elements verticalement */
+}
+
+button {
+  /* Style des boutons par default*/
+  padding: 10px 20px;
+  /* Esapace vertical et horizontal entre le contenu et les limites */
+  font-size: 16px;
+  /* Taille du police */
+  /* cursor: pointer; */
+  border: none;
+  /* Supression du style default des limites */
+  border-radius: 5px;
+  /* Contour des points */
+  background-color: purple;
+  /* Couleur du bouton */
+  color: white;
+  /* Coluleur du texte */
+  transition: background-color 0.3s ease;
+  /* Style du transfomation de etat default et etat hover */
+}
+button:hover {
+  /* Style des boutons par default*/
+  background-color: plum;
+
+}
+#results {
+  /* Style des résultats */
+  display: flex;
+  /* Genre de comportment adaptaive (grid, flex ou flow) pour les elements dans le form-container */
+  flex-wrap: wrap;
+   /* Permettre les elements de se placer verticalement comme besoin */
+  justify-content: center;
+  /* Alignement des elements horizonalememt */
+  gap: 10px;
+  /* Espace entre les elements (les images) */
+  margin: 10px
+   /* Margin entre les limites de le main et l'element (les résultats) */
+}
+
+img {
+  /* Style des résultats */
+  max-width: 300;
+  /* Taille maximale d'un image horizontalement */
+  height: auto;
+  /* Garder la taille vertical proportionelle selon le max-width */
+  display: block;
+  /* Donner les lignes des résultats une ligne complete (contraire au block-inline  */
+}
+  /* Lignes @media de: https://replit.com/@maf88/4-exemples-media-queries-avances?v=1#style.css */
+
+
+@media (max-width: 600px) {
+/* Style lorsque l'ecran est 600px ou moins horizontalement*/
+  body {
+    flex-direction: column;
+    /* Garde la direction verticalle et adapt les elememnts (textes, formulaire, et resultats */
+  }
+}
+  
+
+  
