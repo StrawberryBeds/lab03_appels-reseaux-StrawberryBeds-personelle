@@ -1,3 +1,9 @@
+# Ce repositoire est crée après le remise du travail dans GitHub Classroom donc il manque le historique des commits et il est seulement le version finale.
+
+# Le site affiche des GIFs et Stickers grace à l'API de Giphy.com. Les GIFs peut semble pas très important, mais l'important est faire un site qui appelle des resources stockées sur un autre site ou base de données n'importe quel type ou contenu. En plus, de créer un site qui est dynamique et réactif au taille de l'écran où il se trouve.
+
+# Voici les directions du Prof. Antoine Moevus du Collège Ahuntsic, Montréal.  
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9MU6412l)
 # Laboratoire 4 : Afficheur de Gifs et Stickers
 
@@ -52,19 +58,7 @@ L'application devra comprendre :
 
 ### Partie 2 : Connexion à l'API GIPHY **Fait le 17 fevrier**
 
-**API Clé GIF: IQQrp4vkNqq7bbsURXghOGyGtbZTa7fS**
-**API Clé Stickers: O7gPoOaUS1oleGeMFJPPO4mpfIcAbZGP**
-**API Paramètres : https://developers.giphy.com/explorer/**
-
-https://api.giphy.com/v1/gifs/search?api_key=IQQrp4vkNqq7bbsURXghOGyGtbZTa7fS&q=cat&limit=5&offset=0&rating=g&lang=en&bundle=messaging_non_clips
-
-https://api.giphy.com/v1/gifs/search?api_key=IQQrp4vkNqq7bbsURXghOGyGtbZTa7fS&q=${query}&limit=5&offset=0&rating=g&lang=en&bundle=messaging_non_clips
-
-https://api.giphy.com/v1/stickers/search?api_key=O7gPoOaUS1oleGeMFJPPO4mpfIcAbZGP&q=cat&limit=5&offset=0&rating=g&lang=en&bundle=messaging_non_clips
-
-https://api.giphy.com/v1/stickers/search?api_key=O7gPoOaUS1oleGeMFJPPO4mpfIcAbZGP&q=${query}&limit=5&offset=0&rating=g&lang=en&bundle=messaging_non_clips
-
-1. **Créer un compte et obtenir une clé API** : **API Clé : IQQrp4vkNqq7bbsURXghOGyGtbZTa7fS **
+1. **Créer un compte et obtenir une clé API** : 
    - Rendez-vous sur [GIPHY Developers](https://developers.giphy.com/)
    - Inscrivez-vous et récupérez une **clé API gratuite**. 
 2. **Comprendre la documentation de l'API** :
